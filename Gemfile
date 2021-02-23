@@ -47,6 +47,9 @@ gem "bootsnap", ">= 1.1.0", require: false
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
 
+# Provides a clear syntax for writing and deploying cron jobs
+gem 'whenever', require: false
+
 group :development, :test do
   gem "annotate"
   gem "awesome_print"
